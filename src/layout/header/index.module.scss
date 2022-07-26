@@ -1,0 +1,32 @@
+.root {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  // background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+  // background-image: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);
+  :global {
+    .inner {
+      width: 1200px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .inner-lf {
+      width: 400px;
+      height: 88px;
+      .logo {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .inner-rg {
+      .motto {
+        font-size: 45px;
+        font-weight: bold;
+        // font-family: "FZShuTi";
+        font-family: "STXingkai";
+        color: #bc0b0b;
+      }
+    }
+  }
+}

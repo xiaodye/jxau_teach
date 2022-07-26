@@ -1,19 +1,15 @@
-import "./App.scss"
+import "./App.css"
 import IndexRouter from "./router"
-import Footer from "./components/layout/footer/Footer"
-import Header from "./components/layout/header/Header"
-import NavBar from "./components/layout/navBar/NavBar"
-// import Swiper from "./components/layout/swiper/Swiper"
+import Footer from "./layout/footer/Footer"
+import Header from "./layout/header/Header"
+import NavBar from "./layout/navBar/NavBar"
 
 function App() {
   return (
     <div className="App">
       <Header />
       <NavBar />
-      {/* <Swiper /> */}
-      <main className="main_container">
-        <IndexRouter />
-      </main>
+      <IndexRouter />
       <Footer />
     </div>
   )

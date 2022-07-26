@@ -1,0 +1,13 @@
+@import "~antd/dist/antd.css";
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main_container {
+  width: 1200px;
+  min-height: 500px;
+  margin: 0 auto;
+}
