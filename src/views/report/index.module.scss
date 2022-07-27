@@ -1,0 +1,39 @@
+.root {
+  margin: 50px 0;
+  :global {
+    .inner {
+      width: 1200px;
+      margin: 0 auto;
+      // box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+      .title {
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 22px;
+        font-weight: bold;
+        color: #fff;
+        background-color: #fa3534;
+      }
+
+      .article {
+        background-color: #fff;
+
+        .article-title {
+          height: 100px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: #fa3534;
+          font-size: 28px;
+          font-weight: bold;
+        }
+        .article-content {
+          font-size: 16px;
+          padding: 30px;
+        }
+      }
+    }
+  }
+}

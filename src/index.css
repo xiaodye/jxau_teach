@@ -71,3 +71,11 @@ code {
   border-radius: 10px;
   background-color: #c1c1c1;
 }
+
+.icon {
+  width: 3.2em;
+  height: 3.2em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}

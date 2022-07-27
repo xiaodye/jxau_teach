@@ -1,10 +1,18 @@
 .root {
-  min-height: 800px;
+  min-height: 600px;
   :global {
     .inner {
       width: 1200px;
-      margin: 0 auto;
-      margin-top: 50px;
+      margin: 50px auto;
+      display: flex;
+      justify-content: space-between;
+      align-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .inner-link {
+      width: 1200px;
+      margin: 50px auto;
     }
   }
 }
