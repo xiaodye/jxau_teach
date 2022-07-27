@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import IconCard from "../iconCard"
 import styles from "./index.module.scss"
 
 export default function MaterialCard() {
@@ -11,23 +12,7 @@ export default function MaterialCard() {
   ])
   return (
     <div className={styles.root}>
-      <div className="header">
-        <div className="header-title">支撑材料</div>
-      </div>
-      <div className="main">
-        {materialList.map((item, index) => {
-          return (
-            <div className="report" key={index}>
-              <div className="report-icon">
-                <svg className="icon" aria-hidden="true">
-                  <use xlinkHref={item.icon}></use>
-                </svg>
-              </div>
-              <div className="report-title">{item.title}</div>
-            </div>
-          )
-        })}
-      </div>
+      <IconCard list={materialList} title="材料支撑" bgColor="#19be6b" />
     </div>
   )
 }

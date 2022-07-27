@@ -5,13 +5,18 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      color: #fa3534;
-      font-size: 28px;
       font-weight: bold;
+      > span {
+        font-size: 28px;
+        color: transparent;
+        -webkit-background-clip: text;
+        background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+      }
     }
     .article-content {
       font-size: 16px;
       padding: 30px;
+      color: #3f536e;
     }
   }
 }

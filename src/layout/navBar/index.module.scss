@@ -27,10 +27,13 @@ $primary_color: #3c9cff;
           padding: 0 30px;
           transition: all 0.2s;
           &:hover {
-            background-color: $primary_color;
+            background-color: #ff9900;
             cursor: pointer;
             // color: #f56c6c;
           }
+        }
+        &-item-active {
+          background-color: #ff9900;
         }
       }
     }

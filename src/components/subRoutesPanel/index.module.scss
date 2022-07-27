@@ -1,0 +1,19 @@
+.root {
+  min-height: 600px;
+  :global {
+    .title {
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 22px;
+      font-weight: bold;
+      color: #fff;
+      background-color: #fa3534;
+    }
+
+    .article {
+      background-color: #fff;
+    }
+  }
+}

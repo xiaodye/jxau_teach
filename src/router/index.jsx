@@ -1,5 +1,6 @@
 import AchievementVideo from "@/views/achievementVideo/AchievementVideo"
 import Application from "@/views/application/application"
+import Brief from "@/views/brief/Brief"
 import Home from "@/views/home/home"
 import Material from "@/views/material/Material"
 import Report from "@/views/report/Report"
@@ -10,6 +11,7 @@ function IndexRouter() {
   return (
     <Switch>
       <Route path={"/home"} component={Home} />
+      <Route path={"/brief"} component={Brief} />
       <Route path={"/application"} component={Application} />
       <Route path={"/report"} component={Report} />
       <Route path={"/material"} component={Material} />
