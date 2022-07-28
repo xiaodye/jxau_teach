@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import styles from "./index.module.scss"
 
 export default function Header() {
-  const [logoUrl] = useState(require("@/layout/header/images/logo.jpg").default)
+  const [logoUrl] = useState(require("@/assets/images/logo.jpg").default)
 
   return (
     <header className={styles.root}>

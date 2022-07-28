@@ -5,10 +5,10 @@ import styles from "./index.module.scss"
 
 export default function Swiper() {
   const [imageList] = useState([
-    { id: uuidv4(), url: require("./images/01.jpg").default },
-    { id: uuidv4(), url: require("./images/02.jpg").default },
-    { id: uuidv4(), url: require("./images/03.jpg").default },
-    { id: uuidv4(), url: require("./images/04.jpg").default },
+    { id: uuidv4(), url: require("@/assets/images/01.jpg").default },
+    { id: uuidv4(), url: require("@/assets/images/02.jpg").default },
+    { id: uuidv4(), url: require("@/assets/images/03.jpg").default },
+    { id: uuidv4(), url: require("@/assets/images/04.jpg").default },
   ])
 
   return (
