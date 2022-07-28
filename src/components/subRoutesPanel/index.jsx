@@ -38,7 +38,7 @@ function SubRoutesPanel(props) {
 
   return (
     <Layout className={styles.root}>
-      <Sider theme="light" breakpoint="lg" collapsedWidth="0" style={{ border: "1px solid #f0f0f0" }}>
+      <Sider theme="light" width={240} breakpoint="lg" collapsedWidth="0" style={{ border: "1px solid #f0f0f0" }}>
         {/* 栏目标题 */}
         <div className="title">{title}</div>
 

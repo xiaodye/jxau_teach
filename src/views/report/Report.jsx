@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { UploadOutlined, UserOutlined, VideoCameraOutlined } from "@ant-design/icons"
+import { UploadOutlined, UserOutlined, VideoCameraOutlined, BulbOutlined } from "@ant-design/icons"
 import styles from "./index.module.scss"
 import OutcomeBg from "./subRoutes/OutcomeBg"
 import OutcomeDot from "./subRoutes/OutcomeDot"
@@ -18,7 +18,7 @@ export default function Report() {
     { icon: React.createElement(UserOutlined), key: "item-1", label: "成果形成的背景", path: "/report/bg" },
     { icon: React.createElement(VideoCameraOutlined), key: "item-2", label: "成果主要内容", path: "/report/content" },
     { icon: React.createElement(UploadOutlined), key: "item-3", label: "成果的创新点", path: "/report/dot" },
-    { icon: React.createElement(UserOutlined), key: "item-4", label: "成果的推广应用效果", path: "/report/effect" },
+    { icon: React.createElement(BulbOutlined), key: "item-4", label: "成果的推广应用效果", path: "/report/effect" },
   ])
 
   return (

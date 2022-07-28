@@ -1,0 +1,28 @@
+.root {
+  display: flex;
+  background-color: #f6f6f6;
+  padding: 20px;
+  :global {
+    .doc {
+      min-width: 550px;
+      min-height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #fff;
+    }
+
+    .action {
+      margin-left: 50px;
+
+      &-operations {
+        .btn {
+          margin-right: 20px;
+        }
+      }
+      &-link {
+        margin-top: 50px;
+      }
+    }
+  }
+}
